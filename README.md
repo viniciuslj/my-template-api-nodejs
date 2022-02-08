@@ -1,0 +1,1 @@
+# Project template for a Node.js API

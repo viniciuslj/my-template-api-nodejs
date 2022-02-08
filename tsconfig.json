@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "lib": [
+      "es6",
+      "esnext"
+    ],
+    "module": "commonjs",
+    "baseUrl": ".",
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "removeComments": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "forceConsistentCasingInFileNames": true,
+    "sourceMap": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "skipLibCheck": true,
+    "typeRoots": [
+      "./node_modules/@types",
+    ]
+  },
+  "exclude": [
+    "node_modules",
+    "**/*.spec.ts",
+    "**/*.spec.js",
+    "dist",
+    "docker"
+  ],
+  "include": [
+    "src/**/*"
+  ],
+}
